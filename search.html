@@ -11,7 +11,7 @@
 
 
 
-    <title>Jekyll - IT Technical Training</title>
+    <title>Search Result</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Styles'n'Scripts -->
@@ -49,19 +49,19 @@
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="IT기반기술교육 블로그" />
     <link rel="shortcut icon" href="https://conann-yj.github.io/assets/built/images/favicon.png" type="image/png" />
-    <link rel="canonical" href="https://conann-yj.github.io/tag/jekyll/" />
+    <link rel="canonical" href="https://conann-yj.github.io/search" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
     <meta property="og:site_name" content="IT Technical Training" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Jekyll - IT Technical Training" />
+    <meta property="og:title" content="Search Result" />
     <meta property="og:description" content="IT기반기술교육 블로그" />
-    <meta property="og:url" content="https://conann-yj.github.io/tag/jekyll/" />
+    <meta property="og:url" content="https://conann-yj.github.io/search" />
     <meta property="og:image" content="https://conann-yj.github.io/assets/built/images/blog-cover1.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Jekyll - IT Technical Training" />
+    <meta name="twitter:title" content="Search Result" />
     <meta name="twitter:description" content="IT기반기술교육 블로그" />
     <meta name="twitter:url" content="https://conann-yj.github.io/" />
     <meta name="twitter:image" content="https://conann-yj.github.io/assets/built/images/blog-cover1.jpg" />
@@ -81,7 +81,7 @@
         "name": "IT Technical Training",
         "logo": "https://conann-yj.github.io/"
     },
-    "url": "https://conann-yj.github.io/tag/jekyll/",
+    "url": "https://conann-yj.github.io/search",
     "image": {
         "@type": "ImageObject",
         "url": "https://conann-yj.github.io/assets/built/images/blog-cover1.jpg",
@@ -90,7 +90,7 @@
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://conann-yj.github.io/tag/jekyll/"
+        "@id": "https://conann-yj.github.io/search"
     },
     "description": "IT기반기술교육 블로그"
 }
@@ -105,24 +105,20 @@
     </script> -->
 
     <meta name="generator" content="Jekyll 3.6.2" />
-    <link rel="alternate" type="application/rss+xml" title="Tag Page" href="/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="Search Result" href="/feed.xml" />
 
 
 </head>
-<body class="tag-template">
+<body class="page-template">
 
     <div class="site-wrapper">
         <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
-        <!-- default -->
-<!-- The tag above means - insert everything in this file into the {body} of the default.hbs template -->
+        <!-- < default -->
+<!-- The tag above means: insert everything in this file
+into the {body} of the default.hbs template -->
 
 <!-- The big featured header, it uses blog cover image as a BG if available -->
-<!-- #tag -->
-<!-- dynamically loading backgrounds for tags,  descriptions and page titles -->
-
-
-
-<header class="site-header outer no-cover">
+<header class="site-header outer">
     <div class="inner">
         <nav class="site-nav">
     <div class="site-nav-left">
@@ -158,77 +154,91 @@
     </div>
 </nav>
 
-        <div class="site-header-content">
-            <h1 class="site-title">Jekyll</h1>
-            <h2 class="site-description">
-                
-    			    A collection of 1 posts
-                
-            </h2>
-        </div>
     </div>
 </header>
-<!-- tag -->
 
-<!-- The main content area -->
+<!-- Everything inside the #post tags pulls data from the post -->
+<!-- #post -->
+
 <main id="site-main" class="site-main outer" role="main">
     <div class="inner">
-        <div class="post-feed">
-            <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
+
+        <article class="post-full  post page no-image">
+
+            <header class="post-full-header">
+                <h1 class="post-full-title">Search Result</h1>
+            </header>
+
             
 
+            <section class="post-full-content">
+                <form action="/search" method="get" hidden="hidden">
+    <label for="search-box"></label>
+    <input type="text" id="search-box" name="query">
+</form>
 
-    <article class="post-card tag-template">
-        
-            <a class="post-card-image-link" href="/jekyll-basic">
-                <div class="post-card-image" style="background-image: url(/assets/built/images/jekyll-logo.png)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/jekyll-basic">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Jekyll</span>
-                            
-                        
-                    
+<ul class="mylist" id="search-results"></ul>
 
-                    <h2 class="post-card-title">jekyll 강좌(1) - 블로그 시작</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>이 글은 jekyll basic 입니다!
-</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/built/images/author-logo.png" alt="conann-yj" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/conann-yj/">conann-yj</a>
-                        </span>
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
+<script>
+    window.store = {
+    
+    "algorithm-control-statement": {
+        "title": "algorithm 강좌(2) - algorithm 기본",
+            "author": "conann-yj",
+            "category": "",
+            "content": "Python 강좌는 여러 절로 구성되어 있습니다.     algorithm 강좌(1) - algorithm 기본    algorithm 강좌(2) - algorithm 기본이 글은 algorithm control에 관한 내용 입니다!",
+        "url": "/algorithm-control-statement"
+    }
+    ,
+    
+    "algorithm-basic": {
+        "title": "algorithm 강좌(1) - algorithm 기본",
+            "author": "conann-yj",
+            "category": "",
+            "content": "Python 강좌는 여러 절로 구성되어 있습니다.     algorithm 강좌(1) - algorithm 기본    algorithm 강좌(2) - algorithm 기본이 글은 algorithm basic 입니다!function syntaxHighlight(code) {   var foo = 'Hello World';   var bar = 100;}",
+        "url": "/algorithm-basic"
+    }
+    ,
+    
+    "jekyll-basic": {
+        "title": "jekyll 강좌(1) - 블로그 시작",
+            "author": "conann-yj",
+            "category": "",
+            "content": "이 글은 jekyll basic 입니다!",
+        "url": "/jekyll-basic"
+    }
+    ,
+    
+    "gettysburg-address": {
+        "title": "Gettysburg Address",
+            "author": "abraham",
+            "category": "",
+            "content": "Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.But, in a larger sense, we can not dedicate-we can not consecrate-we can not hallow-this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us-that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion-that we here highly resolve that these dead shall not have died in vain-that this nation, under God, shall have a new birth of freedom-and that government of the people, by the people, for the people shall not perish from the earth.",
+        "url": "/gettysburg-address"
+    }
+    
+    
+    };
+</script>
+<script src="assets/js/lunr.js"></script>
+<script src="assets/js/search.js"></script>
+            </section>
 
+        </article>
 
-        </div>
     </div>
 </main>
+
+<!-- /post -->
+
+<!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs -->
+<script>
+$(function() {
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+});
+</script>
+
 
 
         <!-- Previous/next page links - displayed on every page -->
@@ -305,7 +315,7 @@
     <!-- Paginator increased to "infinit" in _config.yml -->
     <!-- if paginator.posts  -->
     <!-- <script>
-        var maxPages = parseInt('1');
+        var maxPages = parseInt('');
     </script>
     <script src="/assets/js/infinitescroll.js"></script> -->
     <!-- /endif -->
@@ -328,6 +338,14 @@
 
 
     <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
+    
+        <script>
+$(function() {
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+});
+</script>
+
     
 
     <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://conann-yj.github.io/sitemap.xml
