@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://conann-yj.github.io/author/conann-yj/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://conann-yj.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-10-13T19:01:15+09:00</updated>
+  <updated>2021-10-13T12:51:46+00:00</updated>
   <id>https://conann-yj.github.io/author/conann-yj/feed.xml</id>
 
   
@@ -34,8 +34,8 @@
     <entry>
       <title type="html">algorithm 강좌(2) - algorithm 기본</title>
       <link href="https://conann-yj.github.io/algorithm-control-statement" rel="alternate" type="text/html" title="algorithm 강좌(2) - algorithm 기본" />
-      <published>2021-10-08T01:40:00+09:00</published>
-      <updated>2021-10-08T01:40:00+09:00</updated>
+      <published>2021-10-07T16:40:00+00:00</published>
+      <updated>2021-10-07T16:40:00+00:00</updated>
       <id>https://conann-yj.github.io/algorithm-control-statement</id>
       <content type="html" xml:base="https://conann-yj.github.io/algorithm-control-statement">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
@@ -227,10 +227,44 @@ exclude:
     </entry>
   
     <entry>
+      <title type="html">jekyll 강좌(1) - 블로그 시작</title>
+      <link href="https://conann-yj.github.io/jekyll-basic" rel="alternate" type="text/html" title="jekyll 강좌(1) - 블로그 시작" />
+      <published>2021-10-06T16:40:00+00:00</published>
+      <updated>2021-10-06T16:40:00+00:00</updated>
+      <id>https://conann-yj.github.io/jekyll-basic</id>
+      <content type="html" xml:base="https://conann-yj.github.io/jekyll-basic">&lt;p&gt;이 글은 jekyll basic 입니다!&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>conann-yj</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="jekyll" />
+      
+
+      
+        <summary type="html">이 글은 jekyll basic 입니다!</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">algorithm 강좌(1) - algorithm 기본</title>
       <link href="https://conann-yj.github.io/algorithm-basic" rel="alternate" type="text/html" title="algorithm 강좌(1) - algorithm 기본" />
-      <published>2021-10-07T01:40:00+09:00</published>
-      <updated>2021-10-07T01:40:00+09:00</updated>
+      <published>2021-10-06T16:40:00+00:00</published>
+      <updated>2021-10-06T16:40:00+00:00</updated>
       <id>https://conann-yj.github.io/algorithm-basic</id>
       <content type="html" xml:base="https://conann-yj.github.io/algorithm-basic">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
@@ -266,40 +300,6 @@ exclude:
 
       
         <summary type="html">Python 강좌는 여러 절로 구성되어 있습니다. algorithm 강좌(1) - algorithm 기본 algorithm 강좌(2) - algorithm 기본</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">jekyll 강좌(1) - 블로그 시작</title>
-      <link href="https://conann-yj.github.io/jekyll-basic" rel="alternate" type="text/html" title="jekyll 강좌(1) - 블로그 시작" />
-      <published>2021-10-07T01:40:00+09:00</published>
-      <updated>2021-10-07T01:40:00+09:00</updated>
-      <id>https://conann-yj.github.io/jekyll-basic</id>
-      <content type="html" xml:base="https://conann-yj.github.io/jekyll-basic">&lt;p&gt;이 글은 jekyll basic 입니다!&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>conann-yj</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="jekyll" />
-      
-
-      
-        <summary type="html">이 글은 jekyll basic 입니다!</summary>
       
 
       
