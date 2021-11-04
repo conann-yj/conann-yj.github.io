@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://conann-yj.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://conann-yj.github.io/" rel="alternate" type="text/html" /><updated>2021-11-02T15:15:10+00:00</updated><id>https://conann-yj.github.io/feed.xml</id><title type="html">IT 개발 블로그 입니다.</title><subtitle>SW | 웹개발 | 게임개발 | 알고리즘 | IT</subtitle><entry><title type="html">algorithm 강좌(2) - algorithm 기본</title><link href="https://conann-yj.github.io/algorithm-control-statement" rel="alternate" type="text/html" title="algorithm 강좌(2) - algorithm 기본" /><published>2021-10-07T16:40:00+00:00</published><updated>2021-10-07T16:40:00+00:00</updated><id>https://conann-yj.github.io/algorithm-control-statement</id><content type="html" xml:base="https://conann-yj.github.io/algorithm-control-statement">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://conann-yj.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://conann-yj.github.io/" rel="alternate" type="text/html" /><updated>2021-11-04T10:21:49+00:00</updated><id>https://conann-yj.github.io/feed.xml</id><title type="html">IT 개발 블로그 입니다.</title><subtitle>SW | 웹개발 | 게임개발 | 알고리즘 | IT</subtitle><entry><title type="html">algorithm 강좌(2) - algorithm 기본</title><link href="https://conann-yj.github.io/algorithm-control-statement" rel="alternate" type="text/html" title="algorithm 강좌(2) - algorithm 기본" /><published>2021-10-07T16:40:00+00:00</published><updated>2021-10-07T16:40:00+00:00</updated><id>https://conann-yj.github.io/algorithm-control-statement</id><content type="html" xml:base="https://conann-yj.github.io/algorithm-control-statement">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./algorithm-basic&quot;&gt;algorithm 강좌(1) - algorithm 기본&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-control-statement&quot;&gt;algorithm 강좌(2) - algorithm 기본&lt;/a&gt;&lt;/li&gt;
@@ -6,7 +6,7 @@
 
 &lt;p&gt;이 글은 algorithm control에 관한 내용 입니다!!!!!!&lt;/p&gt;
 
-&lt;p&gt;I’m doing fine!!&lt;/p&gt;
+&lt;p&gt;I’m doing fine!! 개발블로그&lt;/p&gt;
 
 &lt;noscript&gt;&lt;pre&gt;# Jekyll configuration
 markdown: kramdown
